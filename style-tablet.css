@@ -1,0 +1,65 @@
+/* STYLE TABLET 768px */
+
+@media (max-width:768px){
+    .image-hero-left, .image-hero-right {
+        display: none;
+    }
+
+    .banner-tablet {
+        background-image: url("assets/tablet/image-hero.png");
+        width: 794px;
+        height: 303px;
+        margin-top: 64px;
+        position: relative;
+        left: -26px;
+    }
+
+    .header-wrapper {
+        justify-content: center;
+    }
+
+    .header-text-header {
+        font-size: 48px;
+    }
+
+    .images-container {
+        margin-left: 35px;
+    }
+    
+    .image {
+        width: 164px;
+        height: 156px;
+    }
+
+    #path-number-2 {
+        margin-top: 150px;
+    }
+
+    footer {
+        height: 428px;
+        background: 
+        linear-gradient(
+        rgba(77, 150, 168, 0.9), 
+        rgba(77, 150, 168, 0.9)
+        ),
+        url("assets/tablet/image-footer.jpg") no-repeat center;
+    }
+    .footer-container {
+        flex-direction: column;
+        padding:0;
+    }
+
+    .footer-experience {
+        width: 50%;
+        text-align: center;
+        margin:0;
+        padding: 90px 0 50px 0;
+    }
+
+    .footer-stay-connected {
+        width: 75%;
+        text-align: center;
+        margin:0;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.brand{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 61px;
+    overflow: hidden;
+}
+
+.image-hero-left, .image-hero-right {
+    width: 20%;
+}
+
+.image-hero-left {
+    position: relative;
+    left:-40px;
+    
+}
+
+.image-hero-right {
+    position: relative;
+    right: -40px;
+}
+
+.header-text-container {
+    text-align: center;
+}
+
+.header-text-header {
+    font-size: 64px;
+    font-weight: 900;
+    margin: 0;
+    color: #28283D;
+}
+
+.header-text-paragraph {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: #87879D;
+    line-height: 26px;
+    margin: 0;
+    padding: 34px 0 32px 0;
+}
+
+.button-download {
+    color:#ffff;
+    border: none;
+    font-size: 16px;
+    padding: 16px 40px 16px 40px;
+    background-color: #4D96A9;
+    border-radius: 29px;
+    font-style: normal;
+    font-weight: 900;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.button-download:hover {
+    background-color: #71C0D4;
+}
+
+.button-details:hover {
+    background-color: #B18BDD;
+}
+.button-details {
+    color:#ffff;
+    border: none;
+    font-size: 16px;
+    padding: 16px 29px 16px 29px;
+    background-color: #855FB1;
+    border-radius: 29px;
+    font-style: normal;
+    font-weight: 900;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.button-download > span {
+    color:#8FE3F9;
+}
+
+.path-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 56px;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 45px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+
+}
+
+.path-number > span {
+    color: rgba(135, 135, 157);
+}
+
+.path-number::before {
+    content: '';
+    height: 84px;
+    width: 1px;
+    background-color: rgba(135, 135, 157, 0.25);
+    position: relative;
+    bottom: 71px;
+    left: 8px;
+}
+
+.images-container {
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image {
+    width: 255px;
+    height: 242px;
+    background-color: #979797;
+}
+
+.image-woman-videocall {
+    background: url('assets/desktop/image-woman-in-videocall.jpg') center;
+    background-size: contain;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+
+.image-women-videochatting {
+    background: url('assets/desktop/image-women-videochatting.jpg') center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+.image-men-meeting {
+    background: url('assets/desktop/image-men-in-meeting.jpg') center;
+    background-size: contain;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+
+.image-man-texting {
+    background: url('assets/desktop/image-man-texting.jpg') center;
+    background-size: contain;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+.modern-use-container {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.modern-use {
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D96A9;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin-bottom: 16px;
+    
+}
+
+.smarter-meetings {
+    font-size: 40px;
+    color:#28283D ;
+    font-weight: 900;
+    line-height: 44px;
+    margin-bottom: 32px;
+    padding: 0 50px 0 50px;
+}
+
+.send-messages {
+    font-size: 18px;
+    line-height: 26px;
+    color: #87879D;
+    padding: 0 20px 0 20px;
+}
+
+#path-number-2 {
+    position: relative;
+    bottom: -30px;
+    background-color: #FAFAFA;
+}
+
+footer {
+    background: 
+    linear-gradient(
+      rgba(77, 150, 168, 0.9), 
+      rgba(77, 150, 168, 0.9)
+    ),
+    url("assets/desktop/image-footer.jpg") no-repeat center;
+    height: 308px;
+    
+}
+.footer-container {
+    display: flex;
+    padding: 110px 0 100px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-experience {
+    font-size: 40px;
+    font-weight: 900;
+    color: #FAFAFA;
+    line-height: 44px;
+    margin-right: 80px;
+    width: 20%;
+
+}
+
+.footer-stay-connected {
+    font-size: 18px;
+    width: 20%;
+    color: #FAFAFA;
+    font-weight: 500;
+    line-height: 26px;
+    margin-right: 100px;
+}
+
+#footer-button-download {
+    background-color: #855FB1;
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
+    border: none;
+    cursor: pointer;
+    color: #FAFAFA;
+    font-weight: 900;
+}
+#footer-button-download > span {
+    color: #D9B8FF;
+    
+}
+
+#footer-button-download:hover {
+    background-color: #B18BDD;
+}
